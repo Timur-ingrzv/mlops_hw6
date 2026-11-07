@@ -30,7 +30,7 @@ workspace "Music application"
             feat_upd = container "Feature updater" "Обновляет признаки пользователей и треков" "Python, Kafka" {
                 tags "Event"
             }
-            training_pipeline = container "Training pipeline" "Создает обучающуй выборку и обучают модель" "Airflow" {
+            training_pipeline = container "Training pipeline" "Создает обучающую выборку, обучает и оценивает модель" "Airflow" {
                 tags "Event"
             }
         }
